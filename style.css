@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&family=Inter:wght@400;500;600&family=Teko:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+       background: #1F1517;
+       color: #FFFFFF ;
+}
+
+html {
+       font-family: Inter, sans-serif;
+       font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+     list-style: none;
+}
+
+nav {
+     max-width: 1120px;
+     margin: auto;
+     padding: 1.5rem 10rem;
+
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.logo {
+       font-family: Teko;
+       font-size: 32px;
+       font-weight: 600;
+       text-transform: uppercase;   
+}
+
+.menu {
+       display: flex;
+       gap: 1.5rem;
+       color: rgb(61, 38, 4);
+}
+
+.github {
+         font-weight: 600;
+         color: #FFF2E7
+}
+
+main {
+      display: flex;
+      flex-direction: column;
+}
+
+.principal {
+            background-color: #181012;                  
+}
+
+.home {
+       max-width: 1120px;
+       height: 60vh;
+       padding: 0rem 2rem;
+       margin: auto;  
+       align-items: center;   
+
+       display: flex;
+       justify-content: space-between;
+       gap: 6rem;
+}
+
+.conteudo-home {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;            
+}
+
+.home-imagens {
+               max-width: 47.9%;                         
+}
+
+.home-imagens > figure > img {
+                              width: 100%;
+                              border-radius: 0.5rem;
+}
+
+.destaque {
+           font-family: Epilogue;
+           font-size: 1rem;
+           font-weight: 400px;
+           text-transform: uppercase;
+}
+
+.marrom {
+         color: rgb(61, 38, 4);
+         font-size: 40px;  
+        padding-right: 110px;
+}
+
+h3 {
+     text-align: center;
+}
+
+.amarelo {
+           color: #8d0505c7
+}
+
+h1 {
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+hr {
+    border-color: #ec3f18 ;
+}
+
+.home-subtitulo {
+                 color: #f8f8f8;
+                 font-family: Inter;
+                 font-size: 19px;
+                 font-weight: 500;
+                 
+}
+
+.botao-home {
+             max-width: 1120px;
+             margin: auto;           
+             padding: 0.5rem 4rem;
+             display: flex;         
+       }
+
+              
+button {
+        border: none;
+        border-radius: 0.5rem;
+        background:rgb(61, 38, 4);
+
+        font-family:Verdana, Geneva, sans-serif;
+
+        margin-left: -540px;
+
+        padding-left: 1rem;
+              
+        padding-right: 1rem;
+
+        padding-top:10px;
+              
+        padding-bottom:20px;
+
+        cursor: pointer;
+                                      
+}
+
+.receitas {
+           display: flex;
+           flex-direction: column;
+           max-width: 1300px;
+           padding: 3rem 2rem;
+           margin-left:  150px;
+           justify-content: space-between;
+}
+
+.receitas-cabeçalho {
+                     display: flex;
+                     flex-direction: column;
+                     gap: 1rem; 
+                     margin-top: 5px;
+}
+
+h4{
+    font-size:30px;
+    padding-top: 5px;
+}
+
+h6 {
+    font-size: 30px;
+    margin-top: 30px;
+    padding-left: 300px;
+}
+
+h5 {
+    font-size: 25px;
+    padding-left: 230px;
+}
+
+.receitas-card-config {
+                padding: 0rem 10rem;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 2rem;
+                padding-left: 20px;
+                max-width: 1300px;
+}
+
+.receitas-card {
+               background: #181012; 
+               padding: 2rem;
+               border-radius: 0.5rem;
+               display: flex;
+               flex-direction: column;
+               gap: 2rem;
+               flex-basis: 29rem;  
+               margin-top: 2rem;       
+}
+
+.receitas-card-cabeçalho {
+                          display: flex;
+                          flex-direction: row;
+                          justify-content: space-between;
+                          align-items: end;
+}
+
+.detalhes-card-cabeçalho {
+                          display: flex;
+                          flex-direction: column;
+                          gap: 0.5rem;
+}
+
+.receita-titulo {
+                 color: #FFF2E7;
+                 font-family: Teko;
+                 font-size: 2rem;
+                 font-weight: 700;
+}
+
+.receita-avaliaçao {
+                    color: #a0452c;
+                    font-family: Inter;
+                    font-size: 1rem;
+                    font-weight: 500;
+}
+ 
+.descriçao {
+            color: #C7BAB3;
+            font-family: Inter;
+            font-size: 1rem;
+            font-weight: 400;
+}
+.boxes1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: #181012;
+  }
+  .boxes2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: -200px;
+   
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: #181012;
+  }
+
+  .boxes3 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 180px;
+    padding-top: -80px;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: #181012;
+  }
+ 
+  .boxes4 {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 175px;
+    padding-top: -80px;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: #181012;
+  }
+ 
+footer {
+        padding: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        background: #23181A;
+}
+
+.copyright {
+             color:#FFF2E7;
+             font-family: Inter;
+             font-size: 1rem;
+             font-weight: 500;
+}
+
+.autor {
+        font-family: Inter;
+        font-size: 1rem;
+        font-weight: 500;
+}
+
+.invisivel{
+           color: transparent;
+}
